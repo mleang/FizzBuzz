@@ -10,7 +10,7 @@ Write a program which iterates the integers from 1 to 100.
 - for numbers which are multiples of both 3 and 5, print "FizzBuzz"
 
 Returns a concatenate string:
-  "12Fizz4BuzzFizz78FizzBuzz11Fizz1314FizzBuzz1617Fizz19Buzz ... Buzz"
+  `12Fizz4BuzzFizz78FizzBuzz11Fizz1314FizzBuzz1617Fizz19Buzz ... Buzz`
 
 
 ### Practical tips
@@ -32,9 +32,8 @@ if __name__ == '__main__':
 ```
 
 6. 🔴 Run your test: `python -m unittest`  or  `python test_fizz_buzz.py`
-7. 🔴 It fails, need to create your source code file: `fizz_buzz.py`
-8. From the code file `fizz_buzz.py` import some functions in `test_fizz_buzz.py`: `from fizz_buzz import your_function`
-   If we run the test, it fails again because we haven’t defined methods yet
+7. 🔴 It fails, so you need to create your source code file: `fizz_buzz.py`
+8. From the code file `fizz_buzz.py` import some functions in `test_fizz_buzz.py`: `from fizz_buzz import your_function`. If we run the test, it fails again because we haven’t defined methods yet
 9. ✅ Write the minimum code to pass the test : write a method called `generate` in `fizz_buzz.py`
 10. 🛠 If the test passes, refactor the code
 11. 🔴 Write your second test, run it, it fails
